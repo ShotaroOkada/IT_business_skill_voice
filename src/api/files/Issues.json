@@ -1,0 +1,13 @@
+[{
+    "issue_id": 1,
+    "tenant_id": 1,
+    "name": "通信処理の実装",
+    "description":"APIクライアントを実装して，Redux Sagaで呼び出す",
+    "progress": 80
+  }, {
+    "issue_id": 2,
+    "tenant_id": 2,
+    "content": "後輩用の勉強用資料の作成",
+    "description": "本勉強資料のゴールを作成し，Reactとは何か・どう書くのかを理解してもらう",
+    "progress":70
+}]
