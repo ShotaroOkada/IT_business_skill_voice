@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<!--
+ * 公立はこだて未来大学　高度ICT ビジネススキル 開発技術 2019年度
+ * Honda Research Institute JP 提供
+ * Author: Yukihisa Yonemochi
+ * Date: 2019/09/17
+ 参考にしたサイト
+ https://developer.mozilla.org/ja/docs/Web/API/SpeechRecognition
+ https://developer.mozilla.org/ja/docs/Web/API/SpeechSynthesisUtterance
+ https://dyb.jp/2017-05/29/tech-memo-for-making-english-study-system/
+ -->
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Chromeでの対話</title>
+</head>
+<body>
+	パソコンのスピーカーとマイクをオンにしてください。<br/>「録音」ボタンを押して、マイクに向かって「こんにちは」「今何時」など話しかけてください。<br/>
+	上に向かって新しいメッセージが追加されます。
+	<div class="recPlayer">
+		<div class="recPlayer__tools">
+			<button class="recPlayer__recBtn" id="recPlayer__recBtn">録音</button>
+		</div>
+		<div class="recPlayer__results" id="recPlayer__results">
+			<ul></ul>
+		</div>
+	</div>
+</body>
+<script type="text/javascript" src="https://code.jquery.com/jquery-3.4.1.js"></script>
+<script type="text/javascript" src="js/main.js"></script>                                                                                                                                                            </script>
+<script type="text/javascript" src="js/response.js"></script>                                                                                                                                                            </script>
+</html>
